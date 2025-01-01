@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in F# when working with mutable variables.  The value of `z` is calculated only once, and is not automatically updated when the values of `x` and `y` change.  This can lead to unexpected results if not carefully considered.
